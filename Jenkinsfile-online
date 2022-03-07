@@ -1,8 +1,6 @@
 pipeline {
   agent {
-    node {
-      label 'xhops-243'
-    }
+    any
   }
 
     parameters {
